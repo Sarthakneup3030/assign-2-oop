@@ -1,0 +1,42 @@
+/* General styling */
+.root {
+    background-color: #2c3e50;
+}
+
+/* Text fields and text areas styling */
+.text-field, .text-area {
+    background-color: #34495e;
+    border-radius: 5px;
+    border: 2px solid #ecf0f1;
+    text-fill: #ecf0f1;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.text-field:focused, .text-area:focused {
+    border-color: #e74c3c;
+}
+
+/* Button styling */
+.button {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    text-fill: #ecf0f1;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c0392b;
+}
+
+.button:pressed {
+    background-color: #e74c3c;
+    border: 2px solid #2c3e50;
+}
+.text-field .text {
+    -fx-fill: #ecf0f1;
+    -fx-opacity: 0.6;
+}
